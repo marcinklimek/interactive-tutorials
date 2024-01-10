@@ -22,7 +22,3 @@ Just click on the chapter you wish to begin from, and follow the instructions. G
 - [[Dictionaries]]
 - [[Modules and Packages]]
 
-
-### Contributing Tutorials
-
-Read more here: [[Contributing Tutorials]]
