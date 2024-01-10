@@ -1,16 +1,8 @@
-This site is generously supported by [DataCamp](https://datacamp.pxf.io/c/67577/1012793/13294?sharedId=learnpython.org). DataCamp offers online interactive [Python Tutorials](https://datacamp.pxf.io/c/67577/1012793/13294?sharedId=learnpython.org) for Data Science. Join **11 millions** other learners and get started learning Python for data science today!
-
-Good news! You can save 25% off your Datacamp annual subscription with the code [LEARNPYTHON23ALE25 - Click here to redeem your discount!](https://datacamp.pxf.io/Y9Nz7R)
-
 # Welcome
 
 Welcome to the LearnPython.org interactive Python tutorial.
 
 Whether you are an experienced programmer or not, this website is intended for everyone who wishes to learn the Python programming language.<br>
-
-You are welcome to join our group on <a href="http://www.facebook.com/groups/180708015327157/">Facebook</a> for questions, discussions and updates.
-
-After you complete the tutorials, you can get certified at [LearnX](https://www.learnx.org) and add your certification to your LinkedIn profile.
 
 Just click on the chapter you wish to begin from, and follow the instructions. Good luck!<br>
 
@@ -30,30 +22,6 @@ Just click on the chapter you wish to begin from, and follow the instructions. G
 - [[Dictionaries]]
 - [[Modules and Packages]]
 
-### Data Science Tutorials
-- [[Numpy Arrays]]
-- [[Pandas Basics]]
-
-### Advanced Tutorials
-
-- [[Generators]]
-- [[List Comprehensions]]
-- [[Lambda functions]]
-- [[Multiple Function Arguments]]
-- [[Regular Expressions]]
-- [[Exception Handling]]
-- [[Sets]]
-- [[Serialization]]
-- [[Partial functions]]
-- [[Code Introspection]]
-- [[Closures]]
-- [[Decorators]]
-- [[Map, Filter, Reduce]]
-
-### Other Python Tutorials
-
-- [DataCamp](https://datacamp.pxf.io/c/67577/1012793/13294?sharedId=learnpython.org) has tons of great interactive [Python Tutorials](https://datacamp.pxf.io/c/67577/1012793/13294?sharedId=learnpython.org) covering data manipulation, data visualization, statistics, machine learning, and more
-- Read [Python Tutorials and References](http://www.afterhoursprogramming.com/index.php?article=181) course from After Hours Programming
 
 ### Contributing Tutorials
 

@@ -96,7 +96,7 @@ DOMAIN_DATA[LEARNPYTHON_DOMAIN] = {
         "language_id": 116,
         "codemirror_mode": "python",
         "prism_mode": "language-python",
-        "analytics" : "UA-22741967-1",
+        "analytics" : "",
         "language_uppercase" : "Python",
         "default_code" : """# Welcome to the Interactive Python Tutorial.
 # Start by choosing a chapter and

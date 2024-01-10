@@ -22,13 +22,7 @@
     <link rel="stylesheet" type="text/css" href="/static/css/prism-dark.css"/>
     <link rel="stylesheet" type="text/css" href="/static/css/learnpython.css"/>
 
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-3723950136133694",
-              enable_page_level_ads: true
-         });
-    </script>
+
 </head>
 <body>
 
@@ -56,55 +50,6 @@
                 <a class="nav-link" href="/about">About</a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.learnx.org">Certify</a>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="more-langs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    More Languages
-                </a>
-                <div class="dropdown-menu" aria-labelledby="more-langs">
-
-                    {% for domain, data in all_data.items() %}
-		                <a class="dropdown-item{% if domain_data.namespace == domain %} disabled{% endif %}" href="{{ data.full_url }}">{{ data.language_uppercase }}</a>
-                    {% endfor %}
-
-                </div>
-              </li>
-
-{#            <li class="nav-item mr-sm-2">#}
-{#                <a class="nav-link" href="https://chrome.google.com/webstore/detail/technews/babfhcgjchdmjknpmbdpcfggaonhimlj?hl=en&authuser=0"><span style="color: limegreen; font-family: monospace; font-weight: 800; font-size: 16px" target="_blank">&lt;/&gt;</span> TechNews Extension</a>#}
-{#            </li>#}
-
-
-        {#
-            <li class="nav-item mr-sm-2 dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Sign In
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-                    <div id="status" style="color: red"></div>
-                    <form method="post" class="form p-3" style="width: 270px">
-                        <div class="form-group">
-                            <input class="form-control" type="email" placeholder="E-mail" id="email" name="email">
-                        </div>
-
-                        <div class="form-group">
-                            <input class="form-control" type="password" placeholder="Password" id="password" name="password">
-                        </div>
-
-                        <div class="form-group">
-                            <button class="btn btn-primary btn-block" id="sign-in">Sign In</button>
-                        </div>
-
-                        <div class="text-center">Don't have an account? <a href="/signup">Sign Up</a>.</div>
-
-
-                    </form>
-                </div>
-            </li>
-         #}
 
         </ul>
 
@@ -134,18 +79,7 @@
 
 </nav>
 
-<nav class="navbar-dark bg-primary navbar-expand-lg mb-3 d-none d-lg-block">
 
-    <div class="container">
-        <ul class="navbar-nav mr-auto">
-            {% for domain, data in all_data.items() %}
-                <li class="nav-item"><a class="nav-link{% if domain_data.namespace == domain %} active{% endif %}" href="{{ data.full_url }}">{{ data.language_uppercase }}</a></li>
-            {% endfor %}
-        </ul>
-
-    </div>
-
-</nav>
 
 {#<div class="container mt-2">#}
 {#        <!-- AddThis Button BEGIN -->#}
@@ -183,15 +117,7 @@
 <script src="/static/js/codemirror/codemirror.js"></script>
 <script src="/static/js/codemirror/addon/edit/matchbrackets.js"></script>
 <script src="/static/js/codemirror/mode/clike/clike.js"></script>
-{% if domain_data.language == "go" %}<script src="/static/js/codemirror/mode/go/go.js"></script>{% endif %}
 {% if domain_data.language == "python" %}<script src="/static/js/codemirror/mode/python/python.js"></script>{% endif %}
-{% if domain_data.language == "perl" %}<script src="/static/js/codemirror/mode/perl/perl.js"></script>{% endif %}
-{% if domain_data.language == "php" %}<script src="/static/js/codemirror/mode/php/php.js"></script>{% endif %}
-{% if domain_data.language == "javascript" %}<script src="/static/js/codemirror/mode/javascript/javascript.js"></script>{% endif %}
-{% if domain_data.language == "typescript" %}<script src="/static/js/codemirror/mode/javascript/javascript.js"></script>{% endif %}
-{% if domain_data.language == "ruby" %}<script src="/static/js/codemirror/mode/ruby/ruby.js"></script>{% endif %}
-{% if domain_data.language == "shell" %}<script src="/static/js/codemirror/mode/shell/shell.js"></script>{% endif %}
-{% if domain_data.language == "sql" %}<script src="/static/js/codemirror/mode/sql/sql.js"></script>{% endif %}
 <script src="/static/js/codemirror/mode/xml/xml.js"></script>
 <script src="/static/js/codemirror/mode/css/css.js"></script>
 <script src="/static/js/codemirror/mode/htmlembedded/htmlembedded.js"></script>
@@ -204,63 +130,8 @@
 <script src="/static/js/datacamp.js"></script>
 {% endif %}
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-22741967-17', '{{ domain_data.namespace }}');
-  ga('create', '{{ domain_data.analytics }}', '{{ domain_data.namespace }}');
-  ga('send', 'pageview');
 
-</script>
-
-{#
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-22741967-17"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-22741967-17');
-</script>
-
-<script>
-    $(function() {
-        $("#sign-in").click(function() {
-            var email = $("#email").val();
-            var password = $("#password").val();
-
-            $.ajax({
-                url: "/signin",
-                data: {
-                    email: email,
-                    password: password
-                },
-                success: function(data) {
-                    if (data.status == "success") {
-                        document.location.refresh();
-                    } else {
-                        $("#status").text("E-mail or password combination invalid.")
-                    }
-                }
-            })
-        });
-
-        $("#sign-up").click(function() {
-
-        });
-    });
-</script>
-
-<script>
-(function(w,i,d,g,e,t,s) {w[d]=w[d]||[];t=i.createElement(g);
-	t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t,s);
-}(window, document, '_gscq', 'script', '//www.hellothere.io/widget/cYqedgvGuFe2EvXs.js'));
-</script>
-#}
 
 {% block head %}{% endblock %}
 

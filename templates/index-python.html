@@ -32,10 +32,7 @@
             </ul>
             {% endif %}
 
-            <div class="clearfix">
-                <p>Get started learning Python with <a href="https://datacamp.pxf.io/c/67577/1012793/13294?sharedId=learnpython.org">DataCamp's</a> free <a href="https://datacamp.pxf.io/c/67577/1012793/13294?sharedId=learnpython.org">Intro to Python tutorial</a>. Learn Data Science by completing interactive coding challenges and watching videos by expert instructors. <a href="https://datacamp.pxf.io/c/67577/1012793/13294?sharedId=learnpython.org">Start Now</a>!</p>
-                <p>Ready to take the test? Head onto <a href="https://www.learnx.org" target="_blank">LearnX</a> and get your Python Certification!</p>
-            </div>
+
 
             <div id="inner-text">{% autoescape off %}
                 {% if page_title %}
@@ -76,58 +73,14 @@
 
             </div>
 
-            <div class="hidden-phone">
 
-            {% if domain_data.courses %}
-            <h3>Online Courses</h3>
-            <div class="row">
-
-                {% for course in domain_data.courses %}
-                <div class="course col-2">
-                    <a href="{{ course.link }}">
-                        <img src="{{ course.image_url }}">
-                        <p style="font-weight: bold; margin-top: 10px; font-size: 14px">{{ course.link_name }}</p>
-{#                    <div>Retail Price: ${{ course.retail_price }}</div>#}
-{#                    <div style="text-size: 12px">{{ course.advertiser }}</div>#}
-                    </a>
-                    <img src="{{ course.pixel_url }}" width="1" height="1" border="0"/>
-                </div>
-                {% endfor %}
-            </div>
-            {% endif %}
-
-            </div>
 
         </div>
         <div class="col-2 d-none d-lg-block mt-2">
             <div id="google-ad-right">
-                <iframe src="https://learnpython-ads.datacamp.com/?page={{page_title}}&language={{language_code}}" frameborder="0" width="160" height="600" scrolling="no" allowtransparancy="true" style="margin-bottom: 10px; border: 0;"></iframe>
 
-                <style>
-                    .ab-test a {
-                        display: none;
-                    }
 
-                </style>
-                <script>
-                    function handleOutboundLinkClicks(event) {
-                        ga('send', 'event', {
-                            eventCategory: 'Outbound Link',
-                            eventAction: 'click',
-                            eventLabel: event.href
-                        });
-                        setTimeout(() => document.location = event.href, 500)
-                        return false;
-                    }
 
-                </script>
-
-                <h4>Sponsors</h4>
-                <div style="margin-top: 20px">
-                    <a href="https://digitalocean.com/" onclick="return handleOutboundLinkClicks(this)">
-                        <img src="/static/img/banners/digital-ocean.svg" style="width: 160px" alt="Digital Ocean">
-                    </a>
-                </div>
                 <h4 class="mt-3">Chapters</h4>
                 <hr/>
                 <div class="mt-2">
