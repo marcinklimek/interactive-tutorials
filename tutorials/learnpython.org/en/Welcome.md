@@ -1,8 +1,8 @@
-# Welcome
+# Operating Systems - Lab05
 
 Welcome to the LearnPython.org interactive Python tutorial.
 
-Whether you are an experienced programmer or not, this website is intended for everyone who wishes to learn the Python programming language.<br>
+Complete the tasks from "Hello, World!" to "Modules and Packages". For each correctly completed task, create a screenshot and include it in the report.
 
 Just click on the chapter you wish to begin from, and follow the instructions. Good luck!<br>
 
