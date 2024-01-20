@@ -1,6 +1,11 @@
 Tutorial
 -----------------
 
+
+Jeśli jest to państwa pierwszy język programowania, to proszę pominąć ten rozdział.
+
+
+
 Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.
 
 A very basic class would look something like this:
