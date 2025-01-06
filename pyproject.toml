@@ -10,7 +10,11 @@ python = "^3.11"
 Flask = "^2.3.3"
 redis = "^5.0.0"
 gunicorn = "^21.2.0"
+python-geoip = "^1.2"
 
+
+[tool.poetry.group.dev.dependencies]
+openai = "^1.58.1"
 
 [build-system]
 requires = ["poetry-core"]
